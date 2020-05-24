@@ -28,6 +28,12 @@ p{
 
 /* Main Header Style*/
 
+.descargar-pdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-header{
     margin: 2rem;
     display: flex;
@@ -61,10 +67,22 @@ a{
 #logo{
     flex: 1 1 40rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Main */
+
+#PDF{
+ text-align: center;
+ margin: 1rem 0 2rem 0;
+}
+
+#PDF a{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -0.2rem;
+}
 
 .main{
     width: 90%;
@@ -251,6 +269,7 @@ footer{
         padding: 2rem;
         
     }
+
 
     #presentacion{
         font-size: 1.2rem;
