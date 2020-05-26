@@ -28,6 +28,11 @@ p{
 
 /* Main Header Style*/
 
+#joystick{
+    position: relative;
+    top: 1rem;
+}
+
 .descargar-pdf{
     display: flex;
     justify-content: center;
@@ -333,6 +338,13 @@ footer{
     .habilidades-detalladas h3{
         font-size: 1.8rem;
         text-align: center;
+    }
+
+    #mario{
+        position: relative;
+        left: -18rem;
+        top: -18rem;
+        margin-top: 20rem;
     }
 
     .UnaporUna h4{
