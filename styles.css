@@ -281,12 +281,23 @@ footer{
 }
 
 #button-up{
-    position: absolute;
-    bottom: -2020px;
-    right: 65px;
+    position: fixed;
+    width: 60px;
+    height: 40px;
+    bottom: 85px;
     font-size: 1.5rem;
     text-align: center;
     color: white;
+    right: 5rem;
+}
+
+
+#flecha{
+    z-index: 1;
+    color:white;
+    width: 30px;
+    position: relative;
+    top: -0.7rem;
 }
 
 
@@ -304,7 +315,7 @@ footer{
     }
 
     
-#joystick{
+    #joystick{
     position: relative;
     top: 1rem;
 }
@@ -371,6 +382,28 @@ footer{
 
     #Behance{
         left: -4rem;
+    }
+
+    #button-up{
+        position: fixed;
+        width: 30px;
+        height: 20px;
+        bottom: 65px;
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+        right: 4rem;
+    }
+    
+    
+    #flecha{
+        z-index: 1;
+        color:white;
+        width: 15px;
+        position: relative;
+        top: -1.35rem;
+        left: -.6rem;
+
     }
 
     footer h4{
