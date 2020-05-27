@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', cursive;
+    max-width: 1200px;
+    
 }
 
 html{
     scroll-behavior: smooth;
+    margin: auto;
 }
 
 
@@ -38,6 +41,7 @@ p{
 .main-header{
     margin: 2rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav{
@@ -56,7 +60,8 @@ nav ul{
     list-style: none;
     font-size: 1.3rem;
     justify-content: space-around;
-    flex: 1 1 40rem;
+    flex: 1 1 20rem;
+    flex-wrap: wrap;
 }
 
 
@@ -66,7 +71,7 @@ a{
 }
 
 #logo{
-    flex: 1 1 40rem;
+    flex: 1 1 20rem;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -85,6 +90,11 @@ a{
     top: -0.2rem;
 }
 
+#presentacion{
+    max-width: 95%;
+    margin: auto;
+}
+
 .main{
     width: 90%;
     margin: 2rem auto;
@@ -93,15 +103,34 @@ a{
 
 .Experiencias{
     width: 90%;
-    margin: 2rem auto;
+    margin: 4rem auto;
     min-height: 80vh;
+}
+
+/* Seccion Educacion*/
+
+.Educacion{
+    max-width: 90%;
+    margin: auto;
+    max-height: 60vh;
+}
+
+#lista-educacion ul{
+    margin-left: 2rem;
 }
 
 /* Seccion Experiencia*/ 
 
+#Experiencias{
+    height: 100%;
+}
+
 #cards{
     display: flex;
+    max-width: 90%;
+    margin: auto;
     min-height: 70vh;
+    max-height:110vh;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -111,20 +140,26 @@ a{
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1), 0px 10px 10px rgba(0,0,0,0.1);
     min-height: 10vh;
+    max-height: 35vh;
     max-width: 35%;
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
     text-align: center;
+    
 }
 
 #card-tocada{
     position: relative;
-    top: -1rem;
+    top: -.8rem;
+    min-height: 10vh;
+    max-height: 35vh;
+    display: none;
 }
+
 
 #titulo{
     font-size: 0.9rem;
     background: #324a66;
-    min-height: 5rem;
+    min-height: 4rem;
     color: white;
     padding: 1rem 0;
     border-radius: .5rem;
@@ -132,13 +167,49 @@ a{
 
 #Subtitulo{
     font-size: 0.8rem;
-    padding: 1rem;
+    padding: 0.5rem;
     color:#324a66
 }
 
 #texto{
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     padding: 0 0.5rem;
+}
+
+/* Seccion Proyectos */
+
+.Proyectos{
+    margin-bottom: 4rem;
+}
+
+.primeraParte{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#proyecto-container{
+    max-width: 90%;
+    margin: auto;
+}
+
+.card-project{
+    max-width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+}
+
+.card-project h3, p{
+    padding: 0.5rem 0;
+}
+
+.card-project a{
+    margin: 2.5rem 0;
+}
+
+.card-project img{
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 /* Seccion Habilidades*/
@@ -147,6 +218,21 @@ a{
     width: 90%;
     margin: auto;
 }
+
+#mensaje-izq{
+    max-width: 90%;
+    margin: auto;
+}
+
+#mensaje-der{
+    max-width: 75%;
+    margin: auto;
+}
+
+#presentacion{
+    font-size: 0.8rem;
+}
+
 
 #detallando-habilidades{
     width: 90%;
@@ -238,6 +324,8 @@ a{
 
 /* Redes */
 
+
+
 .redes{
     width: 90%;
     margin: auto;
@@ -254,6 +342,9 @@ a{
     text-decoration: none;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-left: 5rem;
 }
 
 .redes ul li{

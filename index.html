@@ -30,7 +30,7 @@
 
                 </div>
                 <ul>
-                    <li><a href="">Quien soy </a></li>
+                    <li><a href="#Educacion">Educación</a></li>
                     <li><a href="#Experiencias">Experiencias</a></li>
                     <li><a href="#Habilidades">Habilidades</a></li>
                     <li><a href="#Redes">Redes</a></li>
@@ -41,12 +41,34 @@
         <div class="nes-container with-title">
             <h2 class="title">Quien soy</h2>
             <div class="nes-container is-rounded">
-                <p id="presentacion">Buenas! Ante todo, gracias por mirar mi CV. Soy Diseñador UX/UI Jr. y
+                <p id="presentacion">Buenas! <br> Ante todo, gracias por mirar mi CV. Soy Diseñador UX/UI Jr. y
                     estudiante de Desarrollo Web Full Stack. <br> Actualmente, estoy en búsqueda activa tanto como
                     Diseñador UX, Maquetador o Diseñador Web.</p>
             </div>
         </div>
     </main>
+    <section class="Educacion" id="Educacion">
+        <div class="nes-container with-title" id="lista-educacion">
+            <span class="title">Educación</span>
+            <ul class="nes-list is-disc">
+                <li>Desarrollo Web Full Stack</li>
+                <span class="nes-text is-primary">Acamica (En progreso)</span>
+                <br><br>
+                <li>Diseño UX/UI</li>
+                <span class="nes-text is-primary">Coderhouse</span>
+                <br><br>
+                <li>Curso Profesional: Diseño Gráfico</li>
+                <span class="nes-text is-primary">Escuela Da Vinci</span>
+                <br><br>
+                <li>Técnico Superior en Turismo</li>
+                <span class="nes-text is-primary">La Suisse Cepec</span>
+                <br>
+
+
+            </ul>
+            <br>
+        </div>
+    </section>
     <section class="Experiencias" id="Experiencias">
         <div class="nes-container with-title">
             <h2 class="title">Experiencias</h2>
@@ -70,6 +92,12 @@
                         tango</p>
                 </div>
 
+                <div class="card">
+                    <h4 id="titulo">Argentina Now</h4>
+                    <h5 id="Subtitulo">Ventas - MKT Digital</h5>
+                    <p id="texto">Responsable de ventas y manejo de redes sociales y publicaciones on line.</p>
+                </div>
+
                 <div class="card" id="card-tocada">
                     <h4 id="titulo">Argentina Now - Agencia Minorista</h4>
                     <h5 id="Subtitulo">Ventas - Marketing Digital</h5>
@@ -78,9 +106,56 @@
             </div>
         </div>
     </section>
+
+    <section class="Proyectos">
+        <div class="primeraParte">
+            <h2>Proyectos</h2>
+            <p>Algunos de mis trabajos en web</p>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+        </div>
+        <section class="nes-container is-dark member-card is-centered" id="proyecto-container">
+            <div class="card-project">
+                <h3>{ Viajando Siempre }</h3>
+                <p>Sitio web sobre turismo e información de viajes luego de la COVID-19</p>
+                <img src="./img/Viajando_Siempre.png" target="_blank" alt="imagen web">
+                <a class="nes-btn is-primary" href="https://viajandosiempre.netlify.app" target="_blank">Ir al Sitio</a>
+            </div>
+
+            <div class="card-project">
+                <h3>{ Verycheck }</h3>
+                <p>Landing page, Verycheck es un verificador de informacion.</p>
+                <img src="./img/Verycheck-landing.png" target="_blank" alt="imagen podcast">
+                <a class="nes-btn is-primary" href="verycheck.netlify.app" target="_blank">Ir al Sitio</a>
+
+            </div>
+
+            <div class="card-project">
+                <h3>{ Podcast }</h3>
+                <p>Primer proyecto de Acamica, hecho en HTML y CSS, hacer una web responsive para escuchar Podcast</p>
+                <img src="./img/Podcast_II.png" target="_blank" alt="imagen podcast">
+                <a class="nes-btn is-primary" href="https://jp-podcast.netlify.app/" target="_blank">Ir al Sitio</a>
+
+            </div>
+            <div class="card-project">
+                <h3>{CV - 8bits }</h3>
+                <p>Mi CV utilizando un framework de css, llamado nes.css</p>
+                <img src="./img/Larraza_Juan_Pablo_8bit.png" target="_blank" alt="">
+                <a class="nes-btn is-primary" href="https://jplarraza-cv8bit.netlify.app/" target="_blank">Ir al
+                    Sitio</a>
+            </div>
+
+
+
+        </section>
+    </section>
+
     <section class="nes-container is-dark" id="Habilidades">
         <section class="message-list">
-            <section class="message -left">
+            <section class="message -left" id="mensaje-izq">
                 <i class="nes-bcrikko"></i>
                 <!-- Balloon -->
                 <div class="nes-balloon from-left is-dark">
@@ -88,7 +163,7 @@
                 </div>
             </section>
 
-            <section class="message -right">
+            <section class="message -right" id="mensaje-der">
                 <!-- Balloon -->
                 <div class="nes-balloon from-right is-dark">
                     <p id="presentacion">Hola! <br> Si, claro. A continuación te detallo las habilidades que adquirí
@@ -150,7 +225,7 @@
     </div>
 
     <section class="redes" id="Redes">
-        <div class="nes-container with-title">
+        <div class="nes-container with-title" id="redes-container">
             <h4 class="title">Redes Sociales</h4>
             <div class="nes-list" id="circulo">
                 <ul>
