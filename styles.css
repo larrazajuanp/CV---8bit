@@ -115,20 +115,21 @@ a{
     max-height: 80vh;
 }
 
-1128372102
+#Educacion{
+    margin-top: 4rem;
+}
 
-1150416618
 
 #lista-educacion ul{
     margin-left: 2rem;
 }
 
-#lista-educacion li{
-    font-size: 1.4rem;
+#lista-educacion ul li{
+    font-size: 1.2rem;
 }
 
 #lista-educacion span{
-    font-size: 1.3rem;
+    font-size: 1.15rem;
 }
 
 /* Seccion Experiencia*/ 
@@ -499,12 +500,24 @@ footer{
         line-height: 2.2;
     }
 
+    #Educacion{
+        margin-top: 4rem;
+    }
+
     #Educacion span{
         font-size: 1rem;
     }
 
     #lista-educacion ul{
         margin-left: 3rem;
+    }
+
+    #lista-educacion ul li{
+        font-size: 1.3rem;
+    }
+    
+    #lista-educacion span{
+        font-size: 1.2rem;
     }
 
     .primeraParte h2{
