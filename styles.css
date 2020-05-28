@@ -112,11 +112,23 @@ a{
 .Educacion{
     max-width: 90%;
     margin: auto;
-    max-height: 60vh;
+    max-height: 80vh;
 }
+
+1128372102
+
+1150416618
 
 #lista-educacion ul{
     margin-left: 2rem;
+}
+
+#lista-educacion li{
+    font-size: 1.4rem;
+}
+
+#lista-educacion span{
+    font-size: 1.3rem;
 }
 
 /* Seccion Experiencia*/ 
@@ -182,9 +194,17 @@ a{
     margin-bottom: 4rem;
 }
 
+#small{
+    display: none;
+}
+
 .primeraParte{
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.primeraParte h2{
+    font-size: 1.8rem;
 }
 
 #proyecto-container{
@@ -212,11 +232,49 @@ a{
     text-align: center;
 }
 
+/* Seccion Logros */
+
+.Logros{
+    margin-bottom: 4rem;
+    max-height: 60vh;
+    max-width: 90%;
+    margin: auto;
+}
+ h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+#titulo-bonus{
+    font-size: 1.5rem;
+}
+
+#bonus-container{
+    max-width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.Logros h3{
+    font-size: 1rem
+}
+
+.Logros span{
+    font-weight: 700;
+}
+
+.Logros a{
+    color: rgb(83, 7, 83);
+    color: white;
+}
+
+
 /* Seccion Habilidades*/
 
 #Habilidades{
     width: 90%;
     margin: auto;
+    margin-top: 4rem;
 }
 
 #mensaje-izq{
@@ -391,6 +449,8 @@ footer{
     top: -0.7rem;
 }
 
+/* Mobile */
+
 
 @media screen and (max-width: 932px){
     html{
@@ -437,6 +497,50 @@ footer{
     #texto{
         font-size: 0.9rem;
         line-height: 2.2;
+    }
+
+    #Educacion span{
+        font-size: 1rem;
+    }
+
+    #lista-educacion ul{
+        margin-left: 3rem;
+    }
+
+    .primeraParte h2{
+        font-size: 2.5rem;
+    }
+
+    .primeraParte p{
+        font-size: 1.2rem;
+    }
+
+    #medium{
+        display: none;
+    }
+
+    #small{
+        display: inline-block;
+    }
+
+    .card-project h3{
+        font-size: 2rem;
+    }
+
+    .card-project p{
+        font-size: 1.25rem;
+    }
+
+    .card-project a{
+        padding: 1rem 2rem;
+    }
+
+    .Logros h2{
+        font-size: 2rem;
+    }
+
+    .Logros h3{
+        padding: 1.5rem;
     }
 
     .habilidades-detalladas h3{
