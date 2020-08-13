@@ -15,7 +15,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Juan Pablo Larraza - CV: 8bit</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" id="dayMode">
+    <link rel="stylesheet" href="/darkMode.css" id="darkMode">
     <script src="https://kit.fontawesome.com/dfa8884d75.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
@@ -37,7 +38,6 @@
                         style="color: white;">
                         <button class="nes-btn is-error" id="PDF">Descargar como PDF</button>
                     </a>
-
                 </div>
                 <ul>
                     <li><a href="#Educacion">Educación</a></li>
@@ -51,7 +51,7 @@
         <div class="nes-container with-title">
             <h2 class="title">Quien soy</h2>
             <div class="nes-container is-rounded">
-                <p id="presentacion">Buenas! <br> Ante todo, gracias por mirar mi CV. Soy Diseñador UX/UI Jr. y
+                <p id="presentacion">Buenas! <br> Ante todo, gracias por mirar mi CV. Soy Diseñador UX/UI y
                     estudiante de Desarrollo Web Full Stack. <br> Tengo estudios en Turismo, pero siempre he tenido un
                     interés especial por la tecnología y diseño lo cual me ha llevado a prepararme en esta área. <br>
                     Actualmente, estoy en búsqueda activa tanto como
@@ -311,14 +311,19 @@
         </div>
     </section>
 
+    <a class="nes-btn is-error scroll-btn" id="button-up" href="#"> <img src="./img/arrow-up.svg" alt="" id="flecha">
+    </a>
+
+    <footer>
+        <div class="footer-main">
+            <h4>Larraza Juan Pablo - 2020 &copy;</h4>
+        </div>
+    </footer>
+
+    <script src="/app.js"></script>
+
 </body>
 
-<a class="nes-btn is-error scroll-btn" id="button-up" href="#"> <img src="./img/arrow-up.svg" alt="" id="flecha"> </a>
 
-<footer>
-    <div class="footer-main">
-        <h4>Larraza Juan Pablo - 2020 &copy;</h4>
-    </div>
-</footer>
 
 </html>
